@@ -1,13 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic HTML Page</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text on my very basic web page.</p>
-    <a href="https://www.example.com">Visit Example</a>
-</body>
+<html>
+    <head>
+        <title>Wiseloo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            a {color: white!important;} 
+            .poppins-bold {
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <section class="flex relative overflow-hidden flex-col justify-between text-slate-900 text-white" style="background: rgb(0,0,0); background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(27,16,37,1) 13%, rgba(139,92,246,1) 92%);">
+            <div class="z-50 isolate p-4 sm:px-8 lg:px-16 pb-6 sm:pb-16 md:pb-24">
+                <nav class="mx-auto gap-3 flex font-custom flex-col sm:flex-row mb-8 sm:mb-24 w-full justify-between items-center">
+                    <div class="flex gap-4 justify-center items-center">
+                        <a class="text-xl font-semibold" href="/">Wiseloo</a>
+                    </div>
+                    <div class="flex text-base sm:text-lg justify-center gap-0.5 items-center">
+                        <a class="hover:bg-black/5 transition-all duration-200 rounded-lg whitespace-nowrap px-3 sm:px-4 py-1.5 hover:opacity-80" href="/">Home</a>
+                        <a class="hover:bg-black/5 transition-all duration-200 rounded-lg whitespace-nowrap px-3 sm:px-4 py-1.5 hover:opacity-80" href="/#features">Features</a>
+                        <a class="hover:bg-black/5 transition-all duration-200 rounded-lg whitespace-nowrap px-3 sm:px-4 py-1.5 hover:opacity-80" href="/#faq">FAQ</a>
+                    </div>
+                </nav>
+                <div class="max-w-7xl flex-col gap-4 sm:gap-8 mb-6 sm:mb-16 flex h-full w-full mx-auto">
+                    <div class="text-center sm:mb-0">
+                        <h1 class="font-semibold font-custom text-3xl sm:text-4xl md:text-5xl xl:text-6xl sm:leading-tight tracking-tight text-slate-900 text-white max-w-4xl mx-auto mb-2 poppins-bold">Optimize your product feeds for maximum conversions</h1>
+                        <p class="hidden sm:block sm:leading-normal text-lg sm:text-xl text-slate-900 text-white mx-auto max-w-xl poppins-bold" style="color: #faf26a">Boost Your E-commerce Sales with Wiseloo</p>
+                    </div>
+                    <div class="max-w-3xl mx-auto">
+                        <h2 class="font-semibold font-custom text-xl md:text-2xl text-slate-900 text-white text-center max-w-4xl mb-2 poppins-bold">Get access to our Shopify plugin for <span style="color: #e300ff;">FREE</span></h2>
+                        <form class="flex flex-col sm:flex-row gap-y-2 sm:gap-y-2 max-w-2xl gap-x-2 items-shrink " action="/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qlDWw_QTGczHiTAq_U3izQEzlkZMuoBx8keGNojmRtt8Ai9-Edg_MUOVGqIfEp4kN3copd3pe8BaS4JVRbqVIw" autocomplete="off">
+                            <input type="hidden" name="iframe_id" id="iframe_id" value="apapx0ol" autocomplete="off">
+                            <label class="sr-only" for="email">Email address</label>
+                            <input required="required" class="flex-auto rounded-full border-0 bg-white text-slate-900 px-6 py-3 sm:py-3 shadow-sm ring-1 ring-black/10 placeholder:text-slate-400 focus:ring-2 w-full min-w-[320px] focus:ring-black/5 text-lg sm:text-xl sm:leading-6" placeholder="Enter your email" type="email" name="email" id="email">
+                            <input type="submit" name="commit" value="I want it" class="poppins-bold rounded-full py-3 whitespace-nowrap px-6 sm:px-10 text-lg cursor-pointer font-semibold sm:text-xl text-white hover:opacity-80 transition focus-visible:outline  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white border border-black/5 text-white bg-black" data-disable-with="Notify me">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="opacity-50 z-0">
+                <div class="absolute bottom-0 rotate-180 left-0 opacity-50">
+                    <svg width="743" height="531" viewBox="0 0 743 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.1" x="635.507" y="425.247" width="106.312" height="106.312" transform="rotate(180 635.507 425.247)" fill="#8b5cf6"></rect>
+                    <rect opacity="0.08" x="743" y="318.935" width="106.312" height="106.312" transform="rotate(180 743 318.935)" fill="#8b5cf6"></rect>
+                    <rect opacity="0.1" x="424.065" y="425.247" width="106.312" height="106.312" transform="rotate(180 424.065 425.247)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.06" x="529.196" y="425.247" width="106.312" height="106.312" transform="rotate(180 529.196 425.247)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="317.753" y="318.935" width="106.312" height="106.312" transform="rotate(180 317.753 318.935)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.5" x="317.753" y="212.624" width="106.312" height="106.312" transform="rotate(180 317.753 212.624)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.4" x="424.065" y="318.935" width="106.312" height="106.312" transform="rotate(180 424.065 318.935)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="424.065" y="212.624" width="106.312" height="106.312" transform="rotate(180 424.065 212.624)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.3" x="424.065" y="106.312" width="106.312" height="106.312" transform="rotate(180 424.065 106.312)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.15" x="530.377" y="212.624" width="106.312" height="106.312" transform="rotate(180 530.377 212.624)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="636.688" y="106.312" width="106.312" height="106.312" transform="rotate(180 636.688 106.312)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.2" x="212.623" y="425.247" width="106.312" height="106.312" transform="rotate(180 212.623 425.247)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.08" x="106.312" y="425.247" width="106.312" height="106.312" transform="rotate(180 106.312 425.247)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.05" x="317.753" y="530.377" width="106.312" height="106.312" transform="rotate(180 317.753 530.377)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.2" x="530.377" y="318.935" width="106.312" height="106.312" transform="rotate(180 530.377 318.935)" fill="#ceb8ff"></rect>
+                    </svg>
+                </div>
+                <div class="hidden md:block absolute top-0 right-4 opacity-80">
+                    <svg width="743" height="531" viewBox="0 0 743 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.1" x="635.507" y="425.247" width="106.312" height="106.312" transform="rotate(180 635.507 425.247)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.08" x="743" y="318.935" width="106.312" height="106.312" transform="rotate(180 743 318.935)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="424.065" y="425.247" width="106.312" height="106.312" transform="rotate(180 424.065 425.247)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.06" x="529.196" y="425.247" width="106.312" height="106.312" transform="rotate(180 529.196 425.247)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="317.753" y="318.935" width="106.312" height="106.312" transform="rotate(180 317.753 318.935)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.5" x="317.753" y="212.624" width="106.312" height="106.312" transform="rotate(180 317.753 212.624)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.4" x="424.065" y="318.935" width="106.312" height="106.312" transform="rotate(180 424.065 318.935)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="424.065" y="212.624" width="106.312" height="106.312" transform="rotate(180 424.065 212.624)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.3" x="424.065" y="106.312" width="106.312" height="106.312" transform="rotate(180 424.065 106.312)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.15" x="530.377" y="212.624" width="106.312" height="106.312" transform="rotate(180 530.377 212.624)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.1" x="636.688" y="106.312" width="106.312" height="106.312" transform="rotate(180 636.688 106.312)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.2" x="212.623" y="425.247" width="106.312" height="106.312" transform="rotate(180 212.623 425.247)" fill="#ceb8ff"></rect>
+                    <rect opacity="0.08" x="106.312" y="425.247" width="106.312" height="106.312" transform="rotate(180 106.312 425.247)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.05" x="317.753" y="530.377" width="106.312" height="106.312" transform="rotate(180 317.753 530.377)"fill="#ceb8ff"></rect>
+                    <rect opacity="0.2" x="530.377" y="318.935" width="106.312" height="106.312" transform="rotate(180 530.377 318.935)" fill="#ceb8ff"></rect>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="p-4 sm:px-8 lg:px-16 pb-6 sm:pb-16 md:pb-24 relative py-16 text-white " style="background-color: #8b5cf6">
+            <div class="max-w-7xl mx-auto">
+                <div class="mx-auto mb-8 sm:mb-16 text-center">
+                    <h2 class="font-semibold font-custom text-3xl sm:text-4xl md:text-5xl xl:text-6xl sm:leading-tight tracking-tight text-white max-w-4xl mx-auto mb-2">Key Features</h2>
+                    <p class="sm:leading-normal text-lg sm:leading-normal sm:text-2xl text-white  opacity-80 mx-auto max-w-xl">Discover how Wiseloo can enhance your online store</p>
+                </div>
+            </div>
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="ring-1 ring-white/20 p-6 lg:p-8 bg-gradient-to-br from-white/10 lg:flex-[1_1_30%] rounded-3xl">
+                    <h3 class="font-semibold font-custom text-3xl lg:text-3xl lg:leading-none text-white max-w-4xl mb-2">Real-time Feed Optimization</h3>
+                    <p class="sm:leading-normal text-lg sm:text-xl text-white">Dynamically optimize your product feeds for better visibility and sales</p>
+                </div>
+                <div class="ring-1 ring-white/20 p-6 lg:p-8 bg-gradient-to-br from-white/10 lg:flex-[1_1_30%] rounded-3xl">
+                    <h3 class="font-semibold font-custom text-3xl lg:text-3xl lg:leading-none text-white max-w-4xl mb-2">Seamless Shopify Integration</h3>
+                    <p class="sm:leading-normal text-lg sm:text-xl text-white">Easily set up Wiseloo with Shopify for a hassle-free experience</p>
+                </div>
+                <div class="ring-1 ring-white/20 p-6 lg:p-8 bg-gradient-to-br from-white/10 lg:flex-[1_1_30%] rounded-3xl">
+                    <h3 class="font-semibold font-custom text-3xl lg:text-3xl lg:leading-none text-white max-w-4xl mb-2">Customization Tailored to You</h3>
+                    <p class="sm:leading-normal text-lg sm:text-xl text-white">Deep customization options to target your audience effectively</p>
+                </div>
+                <div class="ring-1 ring-white/20 p-6 lg:p-8 bg-gradient-to-br from-white/10 lg:flex-[1_1_25%] rounded-3xl">
+                    <h3 class="font-semibold font-custom text-3xl lg:text-3xl lg:leading-none text-white max-w-4xl mb-2">Enhanced Sales Channels</h3>
+                    <p class="sm:leading-normal text-lg sm:text-xl text-white">Improve your online sales channels with Wiseloo's tools</p>
+                </div>
+                <div class="ring-1 ring-white/20 p-6 lg:p-8 bg-gradient-to-br from-white/10 lg:flex-[1_1_30%] rounded-3xl">
+                    <h3 class="font-semibold font-custom text-3xl lg:text-3xl lg:leading-none text-white max-w-4xl mb-2">Compete with Confidence</h3>
+                    <p class="sm:leading-normal text-lg sm:text-xl text-white">SMEs can now compete effectively with or without tech expertise</p>
+                </div>
+                    <div class="ring-1 ring-white/20 p-6 lg:p-8 bg-gradient-to-br from-white/10 lg:flex-[1_1_30%] rounded-3xl">
+                    <h3 class="font-semibold font-custom text-3xl lg:text-3xl lg:leading-none text-white max-w-4xl mb-2">Sophisticated Solutions</h3>
+                    <p class="sm:leading-normal text-lg sm:text-xl text-white">Get the edge you need to succeed in the competitive e-commerce market</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="bg-white p-4 sm:px-8 lg:px-16 pb-6 sm:pb-16 md:pb-24  py-20 sm:py-32">
+            <div class="grid lg:grid-cols-5 gap-6 items-start sm:gap-12 md:gap-8 lg:gap-24 max-w-7xl mx-auto">
+                <div class="lg:sticky top-8 lg:col-span-2">
+                    <h2 class="font-semibold font-custom text-3xl sm:text-4xl md:text-5xl xl:text-6xl sm:leading-tight tracking-tight text-slate-900 max-w-4xl mb-2">Frequently Asked Questions</h2>
+                </div>
+                <div class="lg:col-span-3 w-full flex flex-col gap-8 md:gap-12 mx-auto">
+                    <div class="w-full">
+                        <h3 class="font-semibold font-custom text-2xl md:text-3xl text-slate-900 ">How does Wiseloo optimize product feeds?</h3>
+                        <p class="sm:leading-normal text-lg sm:text-xl text-slate-900 ">Wiseloo dynamically optimizes product feeds in real-time to ensure maximum conversions and visibility.</p>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="font-semibold font-custom text-2xl md:text-3xl text-slate-900 ">Is Wiseloo easy to integrate with Shopify?</h3>
+                        <p class="sm:leading-normal text-lg sm:text-xl text-slate-900 ">Yes, Wiseloo seamlessly integrates with Shopify for easy setup and management.</p>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="font-semibold font-custom text-2xl md:text-3xl text-slate-900 ">Can Wiseloo be customized for specific business needs?</h3>
+                        <p class="sm:leading-normal text-lg sm:text-xl text-slate-900 ">Absolutely, Wiseloo offers deep customization options tailored to your business requirements.</p>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="font-semibold font-custom text-2xl md:text-3xl text-slate-900 ">What benefits does Wiseloo offer for SMEs?</h3>
+                        <p class="sm:leading-normal text-lg sm:text-xl text-slate-900 ">SMEs can now compete effectively in the e-commerce market with Wiseloo's sophisticated solutions.</p>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="font-semibold font-custom text-2xl md:text-3xl text-slate-900 ">How can Wiseloo help enhance online sales channels?</h3>
+                        <p class="sm:leading-normal text-lg sm:text-xl text-slate-900 ">Wiseloo provides tools to enhance online sales channels and drive better results for your business.</p>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="font-semibold font-custom text-2xl md:text-3xl text-slate-900 ">Is Wiseloo suitable for e-commerce developers?</h3>
+                        <p class="sm:leading-normal text-lg sm:text-xl text-slate-900 ">Yes, e-commerce developers can integrate Wiseloo's tools for better product feeds and improved performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="mx-auto relative overflow-hidden  md:mx-8 px-5 sm:px-10 py-16 md:py-48 items-center flex sm:rounded-3xl flex-col gap-2 sm:gap-4 text-center" style="background-color: #8b5cf6">
+            <span class="sm:leading-normal text-lg text-white uppercase tracking-wider font-semibold">Wiseloo</span>
+            <h2 class="font-semibold font-custom text-3xl sm:text-4xl md:text-5xl xl:text-6xl sm:leading-tight tracking-tight text-white max-w-3xl mx-auto">Boost Your E-commerce Sales with Wiseloo</h2>
+            <div class="flex justify-center gap-3">
+                <div class="max-w-3xl">
+                    <h2 class="font-semibold font-custom text-xl md:text-2xl text-white text-center sm:text-left max-w-4xl mb-2">Get notified about updates</h2>
+                    <form class="flex flex-col sm:flex-row gap-y-2 sm:gap-y-2 max-w-2xl gap-x-2 items-shrink " action="/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MpO32DrYUia3mLwZ4KrqfmA62fxOke5MmWonTo6PuCnkwU5l3xN02zOElpEC9ZaXVn5nH9_CFf0xZiMtQ9Nr0Q" autocomplete="off">
+                        <input type="hidden" name="iframe_id" id="iframe_id" value="apapx0ol" autocomplete="off">
+                        <label class="sr-only" for="email">Email address</label>
+                        <input required="required" class="flex-auto rounded-full border-0 bg-white text-slate-900 px-6 py-3 sm:py-3 shadow-sm ring-1 ring-black/10 placeholder:text-slate-400 focus:ring-2 w-full min-w-[320px] focus:ring-black/5 text-lg sm:text-xl sm:leading-6" placeholder="Enter your email" type="email" name="email" id="email">
+                        <input type="submit" name="commit" value="Notify me" class="rounded-full py-3 whitespace-nowrap px-6 sm:px-10 text-lg cursor-pointer font-semibold sm:text-xl text-white hover:opacity-80 transition focus-visible:outline  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white border border-black/5 text-white" style="background-color: black" data-disable-with="Notify me">
+                    </form>
+                </div>
+            </div>
+            <div class="z-0 opacity-60">
+                <div class="absolute text-white -bottom-10 -right-10 opacity-80">
+                    <svg width="743" height="531" viewBox="0 0 743 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect opacity="0.1" x="635.507" y="425.247" width="106.312" height="106.312" transform="rotate(180 635.507 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.08" x="743" y="318.935" width="106.312" height="106.312" transform="rotate(180 743 318.935)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="424.065" y="425.247" width="106.312" height="106.312" transform="rotate(180 424.065 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.06" x="529.196" y="425.247" width="106.312" height="106.312" transform="rotate(180 529.196 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="317.753" y="318.935" width="106.312" height="106.312" transform="rotate(180 317.753 318.935)" fill="currentColor"></rect>
+                        <rect opacity="0.5" x="317.753" y="212.624" width="106.312" height="106.312" transform="rotate(180 317.753 212.624)" fill="currentColor"></rect>
+                        <rect opacity="0.4" x="424.065" y="318.935" width="106.312" height="106.312" transform="rotate(180 424.065 318.935)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="424.065" y="212.624" width="106.312" height="106.312" transform="rotate(180 424.065 212.624)" fill="currentColor"></rect>
+                        <rect opacity="0.3" x="424.065" y="106.312" width="106.312" height="106.312" transform="rotate(180 424.065 106.312)" fill="currentColor"></rect>
+                        <rect opacity="0.15" x="530.377" y="212.624" width="106.312" height="106.312" transform="rotate(180 530.377 212.624)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="636.688" y="106.312" width="106.312" height="106.312" transform="rotate(180 636.688 106.312)" fill="currentColor"></rect>
+                        <rect opacity="0.2" x="212.623" y="425.247" width="106.312" height="106.312" transform="rotate(180 212.623 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.08" x="106.312" y="425.247" width="106.312" height="106.312" transform="rotate(180 106.312 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.05" x="317.753" y="530.377" width="106.312" height="106.312" transform="rotate(180 317.753 530.377)" fill="currentColor"></rect>
+                        <rect opacity="0.2" x="530.377" y="318.935" width="106.312" height="106.312" transform="rotate(180 530.377 318.935)" fill="currentColor"></rect>
+                    </svg>
+                </div>
+                <div class="absolute text-white -top-10 left-0 opacity-80">
+                    <svg width="743" height="531" viewBox="0 0 743 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect opacity="0.1" x="635.507" y="425.247" width="106.312" height="106.312" transform="rotate(180 635.507 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.08" x="743" y="318.935" width="106.312" height="106.312" transform="rotate(180 743 318.935)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="424.065" y="425.247" width="106.312" height="106.312" transform="rotate(180 424.065 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.06" x="529.196" y="425.247" width="106.312" height="106.312" transform="rotate(180 529.196 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="317.753" y="318.935" width="106.312" height="106.312" transform="rotate(180 317.753 318.935)" fill="currentColor"></rect>
+                        <rect opacity="0.5" x="317.753" y="212.624" width="106.312" height="106.312" transform="rotate(180 317.753 212.624)" fill="currentColor"></rect>
+                        <rect opacity="0.4" x="424.065" y="318.935" width="106.312" height="106.312" transform="rotate(180 424.065 318.935)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="424.065" y="212.624" width="106.312" height="106.312" transform="rotate(180 424.065 212.624)" fill="currentColor"></rect>
+                        <rect opacity="0.3" x="424.065" y="106.312" width="106.312" height="106.312" transform="rotate(180 424.065 106.312)" fill="currentColor"></rect>
+                        <rect opacity="0.15" x="530.377" y="212.624" width="106.312" height="106.312" transform="rotate(180 530.377 212.624)" fill="currentColor"></rect>
+                        <rect opacity="0.1" x="636.688" y="106.312" width="106.312" height="106.312" transform="rotate(180 636.688 106.312)" fill="currentColor"></rect>
+                        <rect opacity="0.2" x="212.623" y="425.247" width="106.312" height="106.312" transform="rotate(180 212.623 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.08" x="106.312" y="425.247" width="106.312" height="106.312" transform="rotate(180 106.312 425.247)" fill="currentColor"></rect>
+                        <rect opacity="0.05" x="317.753" y="530.377" width="106.312" height="106.312" transform="rotate(180 317.753 530.377)" fill="currentColor"></rect>
+                        <rect opacity="0.2" x="530.377" y="318.935" width="106.312" height="106.312" transform="rotate(180 530.377 318.935)" fill="currentColor"></rect>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-sm max-w-7xl py-10 flex flex-col px-5 gap-3 sm:gap-4 mx-auto">
+            <div class="flex justify-center gap-4">
+                <a class="opacity-60 hover:opacity-80 transition" href="/privacy-policy">Privacy Policy</a>
+                <a class="opacity-60 hover:opacity-80 transition" href="/terms-of-service">Terms of Service</a>
+            </div>
+            <div class="flex flex-col text-center md:flex-row gap-4 justify-center">
+                <span class="opacity-40">© 2024 All Rights Reserved</span>
+            </div>
+        </footer>
+    </body>
 </html>
